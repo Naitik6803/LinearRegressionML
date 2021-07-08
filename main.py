@@ -1,6 +1,6 @@
 #Basic linear regression model (based on diabetes dataset in sklearn)
 #It's just basic two independent variable plot
-#Y= a0 +a1*X1 + a2*X2    form
+#Y= a0 +a1*X1     form
 #so accuracy will be less of this model couz only 2 parameters are there
 # Lesser the number of quality features, lesser the accuracy ^_^ (lesser the mean squared error)
 
