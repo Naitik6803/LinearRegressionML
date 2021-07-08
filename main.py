@@ -46,3 +46,5 @@ plt.plot(dia_X_test,predicition)      #plotting predicted line
 plt.show()
 
 
+#Mean squared Error : 3471.923196056966
+#higher MSE due to less features
