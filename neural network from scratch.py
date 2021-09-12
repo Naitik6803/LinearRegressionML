@@ -1,3 +1,14 @@
+
+# So here this model is predicting the value of unknown d after giving some test inputs,
+# here we can clearly see that when a is 1, d is 1 and when a is 0, d is 0
+
+
+# a b c      unknown d
+# 0 0 1       0
+# 1 0 1       1
+# 1 0 1       1
+# 0 0 1       0
+
 import numpy as np
 
 def sigmoid_derivatives(x):
@@ -7,7 +18,7 @@ def sigmoid_derivatives(x):
 def sigmoid(x):
     return 1/(1+np.exp(-x))
 
-training_inputs= np.array([[0,0,1],[1,0,1],[1,0,1],[0,1,1]])
+training_inputs= np.array([[0,0,1],[1,0,1],[1,0,0],[0,1,1]])
 
 training_outputs=np.array([[0,1,1,0]]).T
 
